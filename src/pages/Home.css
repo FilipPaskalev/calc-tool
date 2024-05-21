@@ -1,0 +1,19 @@
+.home {
+  margin-top: 20px;
+}
+
+.calculator-tile {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767px) {
+  .calculator-tile {
+    margin-bottom: 15px;
+  }
+}
